@@ -33,31 +33,23 @@ A simple code to display the FPS in your game.
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 ![Beginner](https://img.shields.io/badge/-Plug%20%26%20Play-yellow?style=for-the-badge)
 </br>
-Too tired of creating a simple rotating animation for a single gameobject?
+Ever wondered how you could display the FPS counter on your screen?
 </br>
-Realizing that you need to create the same rotating animation for another gameobject?
-</br>
-Me too, that is why I created this simple to use [Auto Rotate Control](https://github.com/hamdanbasri/AutoRotateControl/blob/main/AutoRotateControl.cs) script.
+This [code](https://github.com/hamdanbasri/FPSDisplayForUnity) is here just to do that.
 
 <!-- FUNCTIONS -->
 ## Functions
 
-* Instant rotation of GameObjects.
-* Add as many objects that you want to rotate together.
-* Assign keys to rotate and reset the rotation.
-* Adjust the speed of the rotation.    
+* Display your game fps on a text.
+* Overwrite font color and font size.    
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-* Open Unity and add a <strong>Cube</strong> to the scene.
-* Create an empty GameObject and rename it to <strong>AutoRotateControl</strong>.
-* Attach the [AutoRotateControl.cs](https://github.com/hamdanbasri/AutoRotateControl/blob/main/AutoRotateControl.cs) script to the <strong>AutoRotateControl</strong>.
-* Add the <strong>Cube</strong> or as many GameObjects that you want to rotate together in the same script by adding them to the <strong>Object To Rotate</strong> list.
-* If you want to rotate the object/objects on key press, simply check the <strong>Key Press Enable</strong> and select the keys you wish to use.
-* Adjust the speed by moving the <strong>Slider</strong>.
-* Add <strong>Notes</strong> on top to keep track of the objects that you AutoRotate.
-* Press <strong>Play</strong> in your editor and all the objects you had assigned will now rotate according to your settings.
+* Open Unity and add a <strong>Canvas</strong> to the scene.
+* Create a <strong>Text - TextMeshPro</strong> as a child of the Canvas and rename it to <strong>FPSDisplayText</strong>.
+* Attach the [FPSDisplay.cs](https://github.com/hamdanbasri/FPSDisplayForUnity) script to the <strong>FPSDisplayText</strong>.
+* Press <strong>Play</strong> in your editor and all the <strong>FPSDisplayText</strong> will now display your in game fps.
 
 <!-- USAGE EXAMPLES -->
 ## Example
@@ -65,7 +57,7 @@ Me too, that is why I created this simple to use [Auto Rotate Control](https://g
 <div align="center">
 <img src="images/FPSDisplaySample.jpg" alt="Sample">
 <p align="center">
-Simply add the script to any GameObject and set the properties.
+As simple as attaching the script on a GameObject with a TextMeshPro component.
 </p>
 </br>
         <table>
@@ -74,52 +66,16 @@ Simply add the script to any GameObject and set the properties.
             <td>Annotation</td>
             </td>
         <tr>
-            <td>Notes</td>
-            <td>Add Notes</td>
+            <td>Enable Font Settings</td>
+            <td>If enable, the default font settings will be overwritten with the preset Font Properties</td>
         </tr>
         <tr>
-            <td>Start Rotate Key</td>
-            <td>Set the key to press to start the rotation</td>
+            <td>Font Color</td>
+            <td>Set the font color</td>
         </tr>
         <tr>
-            <td>Reset Rotation Key</td>
-            <td>Set the key to press to reset the rotation</td>
-        </tr>
-        <tr>
-            <td>Key Press Enable</td>
-            <td>If enable, rotation will only start on the key pressed assigned to Start Rotate Key</td>
-        </tr>
-        <tr>
-            <td>Positive X</td>
-            <td>The GameObject/GameObjects will rotate in the Vector3.right direction</td>
-        </tr>
-        <tr>
-            <td>Negative X</td>
-            <td>The GameObject/GameObjects will rotate in the Vector3.left direction</td>
-        </tr>
-        <tr>
-            <td>Positive Y</td>
-            <td>The GameObject/GameObjects will rotate in the Vector3.up direction</td>
-        </tr>
-        <tr>
-            <td>Negative Y</td>
-            <td>The GameObject/GameObjects will rotate in the Vector3.down direction</td>
-        </tr>
-        <tr>
-            <td>Positive Z</td>
-            <td>The GameObject/GameObjects will rotate in the Vector3.back direction</td>
-        </tr>
-        <tr>
-            <td>Negative Z</td>
-            <td>The GameObject/GameObjects will rotate in the Vector3.forward direction</td>
-        </tr>
-        <tr>
-            <td>Speed</td>
-            <td>Adjust the speed of the rotation</td>
-        </tr>
-        <tr>
-            <td>Object To Rotate</td>
-            <td>Arrays of object to be rotated</td>
+            <td>Font Size</td>
+            <td>Set the font size</td>
         </tr>
         </table>
 </div>
