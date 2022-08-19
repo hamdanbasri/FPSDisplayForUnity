@@ -4,7 +4,7 @@
 <!-- PROJECT LOGO -->
 <div align="center">
 <a href="https://github.com/hamdanbasri/AutoRotateControl/blob/main/AutoRotateControl.cs">
-<img src="images/AutoRotateControlLogo.png" alt="Logo" width="400" height="400">
+<img src="images/FPSDisplayLogo.png" alt="Logo">
 </a>
 <p align="center">
 A simple code to display the FPS in your game.
@@ -62,8 +62,8 @@ Me too, that is why I created this simple to use [Auto Rotate Control](https://g
 <!-- USAGE EXAMPLES -->
 ## Example
 
-<img src="images/AutoRotateControlSample.jpg" alt="Sample">
 <div align="center">
+<img src="images/FPSDisplaySample.jpg" alt="Sample">
 <p align="center">
 Simply add the script to any GameObject and set the properties.
 </p>
