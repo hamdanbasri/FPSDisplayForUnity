@@ -45,7 +45,7 @@ This [code](https://github.com/hamdanbasri/FPSDisplayForUnity) is here just to d
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fhamdanbasri%2FAutoRotateControl&label=Visitors&countColor=%23263759&style=flat)
 * Open Unity and add a <strong>Canvas</strong> to the scene.
 * Create a <strong>Text - TextMeshPro</strong> as a child of the Canvas and rename it to <strong>FPSDisplayText</strong>.
 * Attach the [FPSDisplay.cs](https://github.com/hamdanbasri/FPSDisplayForUnity) script to the <strong>FPSDisplayText</strong>.
